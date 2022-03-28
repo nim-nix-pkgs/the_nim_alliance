@@ -11,7 +11,6 @@
   inputs.src-the_nim_alliance-v0_1_0.ref   = "refs/tags/v0.1.0";
   inputs.src-the_nim_alliance-v0_1_0.owner = "tervay";
   inputs.src-the_nim_alliance-v0_1_0.repo  = "the-nim-alliance";
-  inputs.src-the_nim_alliance-v0_1_0.dir   = "";
   inputs.src-the_nim_alliance-v0_1_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
